@@ -1,0 +1,197 @@
+/*body*/
+/* style.css */
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+/* Navbar */
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+/*Footer*/
+footer {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+  border-top: 1px solid #e2e2e2;
+  margin-top: 2rem;
+}
+
+.f-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.f-info-socials i {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  color: black;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.f-info-socials i:hover {
+  color: #d6336c;
+}
+
+.f-info-links a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #222;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+/*card*/
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text p {
+  font-weight: 400 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+
+/* new */
+.add-btn {
+  background-color: #DE424D !important;
+  border: none !important;
+}
+
+/*edit*/
+.edit-btn {
+  background-color: #DE424D !important;
+  border: none !important;
+}
+
+/*Show*/
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Map */
+#map{
+  height: 400px;
+  width: 100vh;
+}
+
+/* Search */
+.btn-search {
+  background-color: #fe424d;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-search:hover {
+  background-color: #e53e3e; /* darker red for hover effect */
+  color: #fff;
+}
+
+.btn-search i{
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+.search-inp{
+  border-radius: 25px;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  font-size: 1rem;
+}
+/* Filter & toggle */
+ #filters {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .filter {
+      text-align: center;
+      margin-right: 2rem;
+      margin-top: 2rem;
+      opacity: 0.7;
+      transition: opacity 0.3s ease;
+    }
+
+    .filter:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+
+    .filter p {
+      font-size: 0.8rem;
+    }
+
+    .tax-info {
+      display: none;
+    }
+
+    .tax-toggle {
+      border: 1px solid black;
+      border-radius: 1rem;
+      height: 3rem;
+      padding: 1rem;
+      margin-left: 1rem;
+      display: flex;
+      align-items: center;
+    }
